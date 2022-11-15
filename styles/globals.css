@@ -1,26 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    margin : 0 auto;
+    overflow-y: scroll;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.title{
+    font-size: 64px;
+    color : white;
+    text-align: center;
+    padding: 15px 5px;
 }
 
-* {
-  box-sizing: border-box;
+.inputCon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.inputCon input{
+    padding: 8px;
+    outline: none;
+    margin-left: 3px;
+}
+
+.inputCon button{
+    border: none;
+    width : 40px;
+    height: 34px;
+    background-color: #ddd;
+}
+
+.cardCon{
+    display : flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(212, 149, 149);
+    margin: 15px;
+    padding: 7px;
+}
+
+.bCon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    text-align: center;
 }
